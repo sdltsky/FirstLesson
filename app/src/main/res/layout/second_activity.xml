@@ -10,32 +10,43 @@
         android:id="@+id/editTextText"
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:inputType="text" />
+
     <EditText
         android:id="@+id/editTextPersonName"
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:inputType="textPersonName" />
+
     <EditText
         android:id="@+id/editTextPhone"
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:phoneNumber="true" />
+
     <EditText
         android:id="@+id/editTextNumber"
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:inputType="number" />
+
     <EditText
         android:id="@+id/editPassword"
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:password="true" />
+
     <EditText
         android:id="@+id/editTextEmailAddress"
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:inputType="textEmailAddress" />
 
 
 </LinearLayout>
